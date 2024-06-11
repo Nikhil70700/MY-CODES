@@ -1,0 +1,104 @@
+.gridContainer{
+    height: 250px;
+    width: 750px;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: 150px 150px 150px; */
+    /* or */
+    /* grid-template-columns: 1fr 1fr 1fr; 3 part me set krdo , or*/
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    /* grid-template-rows: 150px 150px 150px;
+    overflow: scroll; */
+    /* column-gap: 100px;
+    row-gap: 20px; */
+    border-radius: 20px;
+
+    gap: 10px;
+}
+.box1a{
+    /* grid-row-start:  2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+    grid-column: 1/5;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size:30px;
+   
+    
+
+}
+
+
+
+.box2b{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    color: white;
+    font-weight: bold;
+}
+.box3c{
+    color: white;
+    text-align: center;
+}
+.box4d{
+    color: white;
+    text-align: center;
+}
+.box5e{
+    color: white;
+    text-align: center;
+}
+.box6f{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.box1{
+    background-color: hotpink;
+    border-radius: 20px;
+   
+}
+.box2{
+    background-color: rgba(240, 109, 216, 0.441);
+    border-radius: 20px;
+    text-align: center;
+
+}
+.box3{
+    background-color: mediumorchid;
+    border-radius: 20px;
+
+}
+.box4{
+    background-color: darkblue;
+    border-radius: 20px;
+
+
+}
+.box5{
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+.box6{
+    background-color: cadetblue;
+    border-radius: 20px;
+
+}
+/* .box7{
+
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+} */
